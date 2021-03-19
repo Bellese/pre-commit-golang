@@ -29,4 +29,4 @@ repos:
 
 - `go-mod-tidy` - run `go mod tidy -v`, requires golang
 - `golangci-lint` - run `golangci-lint run`, requires [`golangci-lint`](https://github.com/golangci/golangci-lint)
-  - Can be configured via `args` documented here: [`golangci-lint` Configuration](https://golangci-lint.run/usage/configuration/).
+  - Can be configured via `args` documented here: [`golangci-lint` Configuration](https://golangci-lint.run/usage/configuration/). See the [Examples](/examples) directory for an example configuration.
