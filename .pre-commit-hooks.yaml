@@ -1,0 +1,13 @@
+- id: golangci-lint
+  name: "golangci-lint"
+  entry: hooks/run-golangci-lint.sh
+  types: [go]
+  language: "script"
+  pass_filenames: false
+  description: "Runs `golangci-lint run`, requires https://github.com/golangci/golangci-lint"
+- id: go-mod-tidy
+  name: "go-mod-tidy"
+  entry: hooks/run-go-mod-tidy.sh
+  files: '\.go$'
+  language: "script"
+  description: "Runs `go mod tidy -v`, requires golang"

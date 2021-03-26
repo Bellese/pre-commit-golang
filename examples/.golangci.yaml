@@ -1,0 +1,17 @@
+run:
+  output:
+    sort-results: true
+linters:
+  enable:
+    - gofumpt
+    - golint
+    - whitespace
+    - bodyclose
+    - exportloopref
+    - gocyclo
+    - nilerr
+    - goimports
+    - misspell
+    - sqlclosecheck
+issues:
+  fix: true
