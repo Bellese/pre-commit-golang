@@ -1,6 +1,5 @@
-run:
-  output:
-    sort-results: true
+output:
+  sort-results: true
 linters:
   enable:
     - gofumpt
